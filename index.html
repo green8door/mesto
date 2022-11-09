@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mesto</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+
+  <header class="header">
+    <img src="./images/logo_mesto.png" class="header__logo">
+  </header>
+
+  <main>
+    <section class="profile">
+      <img src="./images/jacques.jpg" class="profile__photo" alt="Ваше фото">
+      <div class="profile__info">
+        <div class="profile__info-edit">
+          <h1 class="profile__info-title">Жак-Ив Кусто</h1>
+          <button type="button" class="profile__edit-button"></button>
+        </div>
+        <p class="profile__info-subtitle">Исследователь океана</p>
+      </div>
+      <button type="button" class="profile__add-button"></button>
+    </section>
+
+    <section class="elements">
+      <div class="element">
+        <img src="./images/mongolia.png" class="element__image" alt="mongolia">
+        <div class="element__position">
+          <h2 class="element__title">mongolia</h2>
+          <button type="button" class="element__button-like"></button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="./images/post-soviet.png" class="element__image" alt="post-soviet">
+        <div class="element__position">
+          <h2 class="element__title">post-soviet</h2>
+          <button type="button" class="element__button-like"></button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="./images/sochi.png" class="element__image" alt="sochi">
+        <div class="element__position">
+          <h2 class="element__title">sochi</h2>
+          <button type="button" class="element__button-like"></button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="./images/japan.png" class="element__image" alt="japan">
+        <div class="element__position">
+          <h2 class="element__title">japan</h2>
+          <button type="button" class="element__button-like"></button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="./images/saint-p.png" class="element__image" alt="saint-p">
+        <div class="element__position">
+          <h2 class="element__title">saint-p</h2>
+          <button type="button" class="element__button-like"></button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="./images/white-sea.png" class="element__image" alt="white-sea">
+        <div class="element__position">
+          <h2 class="element__title">white sea</h2>
+          <button type="button" class="element__button-like"></button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <h1 class="footer__author">&copy; 2022 Mesto Russia</h1>
+  </footer>
+  <div class="popup">
+    <div class="popup__body">
+      <button type="button" class="popup__closed-button" id="buttonClosed"></button>
+      <div class="popup__content">
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <form id="form" class="popup__form" name="form">
+          <input type="text" value="Жак-Ив Кусто" id="nameInput" class="popup__name">
+          <input type="text" value="Исследователь океана" id="jobInput" class="popup__about">
+          <button type="submit" class="popup__submit-button">Сохранить</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="./script/script.js"></script>
+</body>
+
+</html>
