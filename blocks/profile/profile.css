@@ -11,9 +11,10 @@
 
 
 @media screen and (max-width: 920px) {
-.profile { 
-    padding: 42px 0 0; 
-    display: flex; 
-    flex-direction: column;
-    align-items: center; }
+    .profile {
+        padding: 42px 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
