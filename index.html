@@ -11,7 +11,7 @@
 <body class="page">
 
   <header class="header">
-    <img src="./images/logo_mesto.png" class="header__logo" alt="Логотип">
+    <img src="./images/mesto_logo.svg" class="header__logo" alt="Логотип">
   </header>
 
   <main>
@@ -19,7 +19,7 @@
       <img src="./images/jacques.jpg" class="profile__photo" alt="Ваше фото">
       <div class="profile__info">
         <div class="profile__info-edit">
-          <h2 class="profile__info-title">Жак-Ив Кусто</h2>
+          <h1 class="profile__info-title">Жак-Ив Кусто</h1>
           <button type="button" class="profile__edit-button"></button>
         </div>
         <p class="profile__info-subtitle">Исследователь океана</p>
@@ -79,22 +79,20 @@
   </main>
 
   <footer class="footer">
-    <h1 class="footer__author">&copy; 2022 Mesto Russia</h1>
+    <p class="footer__author">&copy; 2022 Mesto Russia</p>
   </footer>
   <div class="popup">
     <div class="popup__body">
       <button type="button" class="popup__closed-button" id="buttonClosed"></button>
-      <div class="popup__content">
-        <h2 class="popup__title">Редактировать профиль</h2>
-        <form id="form" class="popup__form" name="form">
-          <input type="text" value="Жак-Ив Кусто" id="nameInput" class="popup__name">
-          <input type="text" value="Исследователь океана" id="jobInput" class="popup__about">
-          <button type="submit" class="popup__submit-button">Сохранить</button>
-        </form>
-      </div>
+      <h2 class="popup__title">Редактировать профиль</h2>
+      <form id="form" class="popup__form" name="form">
+        <input type="text" id="nameInput" class="popup__name-about" name="name">
+        <input type="text" id="jobInput" class="popup__name-about" name="about">
+        <button type="submit" class="popup__submit-button">Сохранить</button>
+      </form>
     </div>
   </div>
-  <script src="./script/script.js"></script>
+  <script src="./scripts/scripts.js"></script>
 </body>
 
 </html>

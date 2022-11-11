@@ -9,6 +9,7 @@
   margin-right: 15px;
   background-color: rgb(255, 255, 255);
   cursor: pointer;
+  flex-shrink: 0;
 }
 
 .element__button-like.like__active {

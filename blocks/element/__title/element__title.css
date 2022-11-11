@@ -6,5 +6,8 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  padding-top: 25px;
   padding-left: 21px;
+  padding-bottom: 32px;
+  margin: 0;
 }
