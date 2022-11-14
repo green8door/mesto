@@ -6,6 +6,10 @@
     grid-area: title;
     margin: 0;
     text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 294px;
 }
 
 @media screen and (max-width: 920px) {
@@ -13,5 +17,6 @@
         font-size: 27px;
         line-height: 33px;
         margin: 23px 10px 14px 23px;
+        max-width: 194px;
     }
 }
